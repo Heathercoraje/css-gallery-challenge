@@ -1,1 +1,32 @@
+*{
+  margin: 0;
+  font: 0;
+}
 
+.photo {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  /*in order for center a div using margin, set display as block*/
+}
+.gallery {
+  display: flex;
+}
+.quarters {
+  display: flex;
+}
+.gallery {
+  display: flex;
+}
+
+@media screen and (min-width:600px) {
+  .gallery {
+    font-size:0;
+  /*getting rid of blank space between text and img*/
+  }
+  .
+  .tripled {
+    width: 33%;
+  }
+}
